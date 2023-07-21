@@ -1,0 +1,33 @@
+* { margin: -2; 
+    padding: -2;
+    box-sizing:
+    border-box; }
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.first a{
+    color:white ;
+    margin: 30px;
+}
+.logo-docplanner
+{
+    display: flex;
+    flex direction:row;
+    justify-content :space-between  ;
+
+}
+#background {
+     background-color:black;
+}
+.about us {
+    height="40" width="200"
+}
+.career{
+    height="40" width="200"
+}
+.Departments{
+    height="40" width="200"
+}
