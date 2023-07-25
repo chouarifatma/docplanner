@@ -1,4 +1,5 @@
-.first.about us a{
+*{margin: 0;}
+.first.aboutus a{
     color: darkslategray;
       font-family: roboto;
   }
@@ -44,6 +45,10 @@ body{
 .parent{
     display: flex;
     justify-content:space-between;
+    position: fixed;
+    margin-top: 0;
+    background-color: aliceblue;
+    width: 100%;
   }
 .logodoco{
     display: flex; 
@@ -54,7 +59,20 @@ h1{
     font-family: roboto;
     text-align: center;
   }
-  
+h2{
+   color: #4ce0d2;
+   font-size: larger;
+}
+.position{
+  display: flex;
+  justify-content: space-between;
+}
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 10px;
+}
 .para1{
     color:grey;
     height: 10%;
@@ -124,6 +142,16 @@ h1{
 .fatma{
   width: 50%;
 }
+.poss
+{ display: flex;
+  margin-right: 2,5%;
+  justify-content:space-around;
+  margin: 50px;
+}
+.mid{
+  margin: 2%;
+  width: 80%;
+}
 .logo2{
   display: flex;
   justify-content: center;
@@ -159,6 +187,9 @@ h1{
   margin: 3%;
   background-color:darkgray;
   font-size: larger;
+}
+.partie{
+  padding-top: 10lvh;
 }
 .row{
   display: flex;
@@ -199,3 +230,45 @@ h1{
 .dropup:hover .dropup-content {
     display: block;
   }
+.nm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.aaa{
+      color: #4ce0d2;
+      font-size: larger;
+      width: 500px;
+      height: 300px;
+    }
+h3{
+  color: gray;
+}
+.dernier{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
